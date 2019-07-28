@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 400px;
+}
+.App-body {
+  color: white;
+  font-size: large;
+  height: 50%;
+}
+
+.one {
+  width: 45%;
+  height: 100%;
+  float: left;
+  background: white;
+  color: #764abc;
+  border-right-color: #764abc;
+  border-right-width: 1px;
+  border-style: none;
+  border-right-style: solid;
+}
+.two {
+  margin-left: 45%;
+  padding-top: 4%;
+  background: white;
+  color: #764abc;
+  text-align: center;
+  height: 80%;
+  margin-right: 5%;
+  box-shadow: 0 0 6px 6px white inset;
+}
+.Page-header {
+  height: 100px;
+  background: black;
+}
+.name {
+  vertical-align: middle;
+  text-align: left;
+  text-indent: 15%;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 60px;
+}
+.name-small {
+  vertical-align: middle;
+  text-align: left;
+  text-indent: 15%;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 60px;
+}
+.back-button {
+  font-weight: bold;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.linkedin {
+  height: 10%;
+  display: inline-block;
+  padding: 3%;
+}
+
+.text-two {
+  width: 90%;
+  padding-left: 10%;
+}
+
+.no-bash {
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.no-bash .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  background-color: black;
+  color: #fff;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
+.no-bash:hover .tooltiptext {
+  visibility: visible;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  background-color: #764abc;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
