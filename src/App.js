@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import li from './img/li.png';
+import gh from './img/gh.png';
 import './App.css';
 import DotsThing from './components/DotsThing';
 
@@ -20,10 +22,10 @@ class App extends Component {
       <h2 onClick={(e) => this.setSelected("projects", e)}>PROJECTS</h2>
       <h2 onClick={(e) => this.setSelected("about", e)}>ABOUT</h2>
       <a href="https://www.linkedin.com/in/edinpeter/">
-        <img className="linkedin" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png"></img>
+        <img className="linkedin" src={li}></img>
       </a>
       <a href="https://github.com/edinpeter">
-        <img className="linkedin" src="https://image.flaticon.com/icons/svg/25/25231.svg"></img>
+        <img className="linkedin" src={gh}></img>
       </a>
     </div>)
   }
@@ -43,7 +45,8 @@ class App extends Component {
       <div className="two">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="text-two">I have a lot of ideas, but not a lot of time, so check back often</p>
-        <p>{this.state.selected}</p>
+
+        <a className="project-link" href="https://github.com/edinpeter/domin1on">Dominion (Github)</a>
 
         <p onClick={(e) => this.setSelected("home", e)} className="back-button">Back</p>
       </div>)

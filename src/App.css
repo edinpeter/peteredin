@@ -4,7 +4,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 200s linear;
   height: 80px;
 }
 
@@ -58,6 +58,11 @@
 }
 .back-button {
   font-weight: bold;
+}
+
+.project-link {
+  font-weight: bold;
+  color: black;
 }
 
 .App-intro {
