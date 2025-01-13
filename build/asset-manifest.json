@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/peteredin/static/css/main.e6c13ad2.css",
+    "main.js": "/peteredin/static/js/main.b824db09.js",
+    "static/js/156.eedeff49.chunk.js": "/peteredin/static/js/156.eedeff49.chunk.js",
+    "index.html": "/peteredin/index.html",
+    "main.e6c13ad2.css.map": "/peteredin/static/css/main.e6c13ad2.css.map",
+    "main.b824db09.js.map": "/peteredin/static/js/main.b824db09.js.map",
+    "156.eedeff49.chunk.js.map": "/peteredin/static/js/156.eedeff49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b824db09.js"
+  ]
+}
