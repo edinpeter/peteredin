@@ -87,7 +87,7 @@ const App: React.FC = () => {
       <ContentWrapper>
         <ImageSection>
           <Image
-            src="/me.jpg"
+            src={`${process.env.PUBLIC_URL}/me.jpg`}
             alt="Me!"
             loading="lazy"
           />
